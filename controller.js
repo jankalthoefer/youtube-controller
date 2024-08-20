@@ -46,7 +46,7 @@ function startTimeout() {
     setTimeout(() => {
         timeout = false;
         console.log('reset timeout');
-    }, 10000);
+    }, 3000);
 }
 
 updateGamepad();
